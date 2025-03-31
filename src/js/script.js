@@ -17,3 +17,16 @@ console.log(nome1);
 let nome2=null;
 console.log(nome2)
 
+//TIPOS DE VARIÁVEIS
+
+let exemplo1=10;
+console.log(typeof exemplo1)
+
+let exemplo2 ="tecnologia";
+console.log(tyoeof exemplo2)
+
+let exemplo3=true;
+console.log(typeof exemplo3)
+
+let exemplo4{};
+console.log{}
