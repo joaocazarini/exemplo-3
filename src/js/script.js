@@ -140,7 +140,13 @@ let produto ="notebook"
 const preço=produo ="notebook" ? desconto ? 100 :200 :produto ==="mouse" ? 30:100;
 console.log(preço)
 
-//
+//estrutura de repetição
+
+//FOR
+
+for(let i=0; i<=10;i++){
+     console.log("o valor de I é :" ,i)
+}
 
 
 
