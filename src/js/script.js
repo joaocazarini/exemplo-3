@@ -130,6 +130,17 @@ switch(time){
 
 //ternario
 
+let valor = 100;
+
+let resultado = valor == 100 ? "certo" :"errado"
+console.log(resultado)
+
+//ternario encadeado
+let produto ="notebook"
+const preço=produo ="notebook" ? desconto ? 100 :200 :produto ==="mouse" ? 30:100;
+console.log(preço)
+
+//
 
 
 
