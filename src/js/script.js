@@ -70,15 +70,68 @@
 
 //OPERADORES LÓGICOS
 
-const num3=10;
-const num4=20;
+// const num3=10;
+// const num4=20;
 
-console.log(num3 < num4);
-console.log(num3> num4 && num4 < num3);
-console.log (num3 < num4 || num4 < num3);
+// console.log(num3 < num4);
+// console.log(num3> num4 && num4 < num3);
+// console.log (num3 < num4 || num4 < num3);
 
-//operadores de comparação
+// //operadores de comparação
 
-console.log(num3 = num4);
-console.log(num3 == num4);
-//console.log(num3 === num4);
+// console.log(num3 == num4);
+
+//ESTRUTURA CONDICIONAL
+
+//if
+
+if(true){
+    console.log("é verdadeiro")
+}
+
+//if/else
+
+let usuario="teste"
+if (usuario =="teste"){
+    console.log("usuario correto")
+}else{
+    console.log("usuario errado")
+}
+
+// if encadeado / aninhado
+
+let idade =15
+
+if(idade < 15){
+    console.log("menor de idade")
+}else if(idade >15 && idade < 18){
+    console.log("nao é maior mas pode entrar")
+}else{
+    console.log("pode entrar,é maior")
+}
+
+// switch
+
+let time="palmeiras"
+
+switch(time){
+    case "palmeiras":
+        console.log("melhor time")
+        break;
+    case "corinthians":
+        console.log("nao é o melhor time")
+        break;
+    case "santos":
+        console.log("pelé")
+        break;
+    default:
+        console.log("nenhuma das opções") 
+}
+
+//ternario
+
+
+
+
+
+
